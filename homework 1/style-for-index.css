@@ -33,6 +33,9 @@ header ul {
 .contact {
     margin-left: auto;
 }
+.contact a {
+    color: #757575 !important;
+}
 body {
     margin: 0px;
 }
