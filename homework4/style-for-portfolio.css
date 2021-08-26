@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*:not(.logo) {
+    font-family: Roboto;
+    font-style: normal;
+}
+p {
+    font-weight: 500;
+}
+.order h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 500px;
+}
+header {
+    border: 1px solid #ECECEC;
+    height: 80px;
+}
+header ul {
+    margin: 0px;
+}
+.nav {
+    padding-top: 25px;
+    display: flex;
+}
+.nav a {
+    margin: 0px;
+    color: #212121;
+}
+header svg {
+    fill: #757575;
+}
+footer svg {
+    fill: #FFFFFF;
+}
+.nav a:hover svg {
+    fill: #2196F3;
+}
+.nav a:hover {
+    color: #2196F3;
+}
+.contact {
+    margin-left: auto;
+    padding: 0px;
+}
+.contact a {
+    color: #757575;
+}
+.margin-right-30 {
+    margin-right: 30px;
+}
+address a {
+    margin-left: 0px;
+}
+body {
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.36182;
+    color: black;
+    margin: 0px;
+    font-size: 26px;
+    line-height: 31px;
+}
+.blue {
+    color: #2196F3;
+}
+.main {
+    text-decoration: none;
+}
+.filter button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;;
+}
+.inline {
+    display: inline-block;
+}
+.float {
+    float: left;
+}
+.float-r {
+    float: right;
+}
+.margin100 {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.margin-15 {
+    margin: 0px 15px;
+}
+.list {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+}
+.w50 {
+    width: 50%;
+}
+.vertical-list {
+    list-style-type: none;
+    padding: 0px;
+}
+.flex-list {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+}
+.menu a {
+    color: black;
+}
+address a {
+    color: #757575;
+}
+address ul {
+    margin-top: 2px;
+}
+nav a:not(.main) {
+    margin-left: 50px;
+}
+footer {
+    background-color: #2F303A;
+}
+.margin-top-9 {
+    margin: 9px 0;
+}
+footer .logo {
+    margin-bottom: 20px;
+}
+.margin-0 {
+    margin: 0px !important;
+}
+.white-word {
+    color: #FFFFFF;
+}
+main ul{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px;
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: flex-end;
+}
+.our-work ul {
+    justify-content: space-between;
+    width: 100%;
+}
+.our-work ul li {
+    width: 30%;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+main ul .example li {
+    width: 30%;
+}
+.gray {
+    color: #757575;
+}
+button {
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    height: 38px;
+}
+button {
+    color: #212121;
+}
+.filter button:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;;
+}
+.filter {
+    text-align: center;
+}
+.filter ul li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.join-us {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.circle-radius {
+    border: 1px solid rgba(255, 255, 255, 0.1)s;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin-right: 10px;
+}
+.circle-radius a {
+    height: 20px;
+    top: 25%;
+    position: absolute;
+}
+nav a:hover {
+    color: #2196F3;
+}
+.circle-radius:hover {
+    background-color: #2196F3;
+}
