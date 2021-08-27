@@ -20,6 +20,16 @@ header {
 header ul {
     margin: 0px;
 }
+nav {
+    width: 30%;
+}
+.black-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
 .nav {
     padding-top: 25px;
     display: flex;
@@ -39,9 +49,6 @@ footer svg {
 }
 .nav a:hover {
     color: #2196F3;
-}
-nav a:not(.main) {
-    margin-left: 50px;
 }
 .contact {
     margin-left: auto;
