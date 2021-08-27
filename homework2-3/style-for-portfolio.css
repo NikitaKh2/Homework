@@ -26,12 +26,19 @@ header {
 header ul {
     margin: 0px;
 }
+nav {
+    width: 30%;
+}
+.black-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
 .nav {
     padding-top: 25px;
     display: flex;
-}
-.nav a:not(.main) {
-    margin-left: 50px;
 }
 .nav a {
     margin: 0px;
@@ -39,6 +46,10 @@ header ul {
 }
 .contact {
     margin-left: auto;
+    padding: 0px;
+}
+.contact li:first-child {
+    margin-right: 50px;
 }
 .contact a {
     color: #757575;
@@ -80,7 +91,7 @@ a {
 .float-r {
     float: right;
 }
-.margin100 {
+.margin-l-r-from-body {
     margin-left: 13%;
     margin-right: 13%;
 }

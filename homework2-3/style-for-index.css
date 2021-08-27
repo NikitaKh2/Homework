@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+body {
+    font-family: roboto;
+}
 *:not(.logo) {
     font-family: Roboto;
     font-style: normal;
@@ -23,6 +26,16 @@ header {
 header ul {
     margin: 0px;
 }
+nav {
+    width: 30%;
+}
+.black-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
 .nav {
     padding-top: 25px;
     display: flex;
@@ -34,6 +47,9 @@ header ul {
 .contact {
     margin-left: auto;
     padding: 0px;
+}
+.contact li:first-child {
+    margin-right: 50px;
 }
 .contact a {
     color: #757575;
@@ -61,9 +77,6 @@ address ul a {
 }
 address ul {
     margin-top: 2px;
-}
-.nav a:not(.main) {
-    margin-left: 50px;
 }
 .black-text a {
     color: black;
@@ -97,7 +110,7 @@ button {
     border-radius: 5px;
     border-color: #2196F3;
 }
-.margin100 {
+.margin-l-r-from-body {
     margin-left: 13%;
     margin-right: 13%;
 }
