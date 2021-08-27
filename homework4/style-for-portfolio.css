@@ -20,6 +20,16 @@ header {
 header ul {
     margin: 0px;
 }
+nav {
+    width: 30%;
+}
+.black-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
 .nav {
     padding-top: 25px;
     display: flex;
@@ -121,9 +131,6 @@ address a {
 }
 address ul {
     margin-top: 2px;
-}
-nav a:not(.main) {
-    margin-left: 50px;
 }
 footer {
     background-color: #2F303A;
