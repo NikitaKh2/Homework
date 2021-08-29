@@ -2,12 +2,14 @@
 body {
     font-family: roboto;
 }
-*:not(.logo) {
+body:not(.logo) {
     font-family: Roboto;
     font-style: normal;
+    color: rgba(117, 117, 117, 1);
 }
 button {
     height: 50px;
+    cursor: pointer;
 }
 p {
     font-weight: 500;

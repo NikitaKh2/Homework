@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-*:not(.logo) {
+body:not(.logo) {
     font-family: Roboto;
     font-style: normal;
+    color: rgba(117, 117, 117, 1);
 }
 p {
     font-weight: 500;
 }
 button {
     height: 50px;
+    cursor: pointer;
 }
 img {
     width: 100%;
